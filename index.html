@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Easter Treasure Hunt Crossword</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<h1>🐣 Easter Treasure Hunt Crossword</h1>
+
+<div id="grid" class="grid"></div>
+
+<div class="section">
+
+<h3>Enter number from game stall</h3>
+
+<input id="numberInput" placeholder="Enter number">
+<button onclick="unlockClue()">Unlock Clue</button>
+
+</div>
+
+<div class="section">
+
+<h3 id="clueText"></h3>
+
+<input id="answerInput" placeholder="Enter answer">
+<button onclick="checkAnswer()">Submit</button>
+
+</div>
+
+<p id="message"></p>
+
+<button onclick="resetGame()">Clear Progress</button>
+
+<script src="script.js"></script>
+
+</body>
+</html>
