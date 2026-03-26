@@ -1,0 +1,710 @@
+{
+  "0": {
+    "grid_design": [
+      "#############",
+      "#############",
+      "#############",
+      "######BUNNY78",
+      "##CHOCOLATE21",
+      "######O###G##",
+      "#44PARK###G##",
+      "######6###1##",
+      "######3###5##",
+      "#############",
+      "#############",
+      "#############",
+      "#############"
+    ],
+    "2": {
+      "clue_answer": {
+        "BUNNY78": {
+          "row": 3,
+          "col": 6,
+          "dir": "across"
+        }
+      },
+      "clue_index": "2",
+      "unlock_code": "78"
+    },
+    "0": {
+      "clue_answer": {
+        "CHOCOLATE21": {
+          "row": 4,
+          "col": 2,
+          "dir": "across"
+        }
+      },
+      "clue_index": "0",
+      "unlock_code": "21"
+    },
+    "1": {
+      "clue_answer": {
+        "44PARK": {
+          "row": 6,
+          "col": 1,
+          "dir": "across"
+        }
+      },
+      "clue_index": "1",
+      "unlock_code": "44"
+    },
+    "4": {
+      "clue_answer": {
+        "BOOK63": {
+          "row": 3,
+          "col": 6,
+          "dir": "down"
+        }
+      },
+      "clue_index": "4",
+      "unlock_code": "63"
+    },
+    "3": {
+      "clue_answer": {
+        "EGG15": {
+          "row": 4,
+          "col": 10,
+          "dir": "down"
+        }
+      },
+      "clue_index": "3",
+      "unlock_code": "15"
+    }
+  },
+  "1": {
+    "grid_design": [
+      "#######C##",
+      "#######A##",
+      "#######K##",
+      "###5###E##",
+      "###1###7##",
+      "###SUN32##",
+      "PLANE84###",
+      "SCHOOL19##",
+      "###W######",
+      "##########"
+    ],
+    "0": {
+      "clue_answer": {
+        "SUN32": {
+          "row": 5,
+          "col": 3,
+          "dir": "across"
+        }
+      },
+      "clue_index": "0",
+      "unlock_code": "32"
+    },
+    "2": {
+      "clue_answer": {
+        "PLANE84": {
+          "row": 6,
+          "col": 0,
+          "dir": "across"
+        }
+      },
+      "clue_index": "2",
+      "unlock_code": "84"
+    },
+    "3": {
+      "clue_answer": {
+        "SCHOOL19": {
+          "row": 7,
+          "col": 0,
+          "dir": "across"
+        }
+      },
+      "clue_index": "3",
+      "unlock_code": "19"
+    },
+    "4": {
+      "clue_answer": {
+        "CAKE72": {
+          "row": 0,
+          "col": 7,
+          "dir": "down"
+        }
+      },
+      "clue_index": "4",
+      "unlock_code": "72"
+    },
+    "1": {
+      "clue_answer": {
+        "51SNOW": {
+          "row": 3,
+          "col": 3,
+          "dir": "down"
+        }
+      },
+      "clue_index": "1",
+      "unlock_code": "51"
+    }
+  },
+  "2": {
+    "grid_design": [
+      "###########",
+      "########7##",
+      "########7##",
+      "###L####B##",
+      "##GIRAFFE11",
+      "##COW43#E##",
+      "##AN#######",
+      "##T5#######",
+      "##98#######",
+      "##0########",
+      "###########"
+    ],
+    "2": {
+      "clue_answer": {
+        "GIRAFFE11": {
+          "row": 4,
+          "col": 2,
+          "dir": "across"
+        }
+      },
+      "clue_index": "2",
+      "unlock_code": "11"
+    },
+    "3": {
+      "clue_answer": {
+        "COW43": {
+          "row": 5,
+          "col": 2,
+          "dir": "across"
+        }
+      },
+      "clue_index": "3",
+      "unlock_code": "43"
+    },
+    "4": {
+      "clue_answer": {
+        "77BEE": {
+          "row": 1,
+          "col": 8,
+          "dir": "down"
+        }
+      },
+      "clue_index": "4",
+      "unlock_code": "77"
+    },
+    "0": {
+      "clue_answer": {
+        "LION58": {
+          "row": 3,
+          "col": 3,
+          "dir": "down"
+        }
+      },
+      "clue_index": "0",
+      "unlock_code": "58"
+    },
+    "1": {
+      "clue_answer": {
+        "CAT90": {
+          "row": 5,
+          "col": 2,
+          "dir": "down"
+        }
+      },
+      "clue_index": "1",
+      "unlock_code": "90"
+    }
+  },
+  "3": {
+    "grid_design": [
+      "##PENCIL39##",
+      "######C#####",
+      "##5#G#E#####",
+      "##5#R#C#####",
+      "##B#E#R#####",
+      "##A#E#E#####",
+      "##SUNDAY28##",
+      "##E#6#M#####",
+      "##B#4#9#####",
+      "##A###2#####",
+      "##L#########",
+      "##L#########"
+    ],
+    "2": {
+      "clue_answer": {
+        "PENCIL39": {
+          "row": 0,
+          "col": 2,
+          "dir": "across"
+        }
+      },
+      "clue_index": "2",
+      "unlock_code": "39"
+    },
+    "0": {
+      "clue_answer": {
+        "SUNDAY28": {
+          "row": 6,
+          "col": 2,
+          "dir": "across"
+        }
+      },
+      "clue_index": "0",
+      "unlock_code": "28"
+    },
+    "3": {
+      "clue_answer": {
+        "ICECREAM92": {
+          "row": 0,
+          "col": 6,
+          "dir": "down"
+        }
+      },
+      "clue_index": "3",
+      "unlock_code": "92"
+    },
+    "4": {
+      "clue_answer": {
+        "55BASEBALL": {
+          "row": 2,
+          "col": 2,
+          "dir": "down"
+        }
+      },
+      "clue_index": "4",
+      "unlock_code": "55"
+    },
+    "1": {
+      "clue_answer": {
+        "GREEN64": {
+          "row": 2,
+          "col": 4,
+          "dir": "down"
+        }
+      },
+      "clue_index": "1",
+      "unlock_code": "64"
+    }
+  },
+  "4": {
+    "grid_design": [
+      "##TRAIN70##",
+      "####I######",
+      "#A##R######",
+      "#P##PHONE83",
+      "#P##O######",
+      "#LIBRARY17#",
+      "#E##T######",
+      "#2##4######",
+      "#6##6######",
+      "###########",
+      "###########"
+    ],
+    "3": {
+      "clue_answer": {
+        "TRAIN70": {
+          "row": 0,
+          "col": 2,
+          "dir": "across"
+        }
+      },
+      "clue_index": "3",
+      "unlock_code": "70"
+    },
+    "1": {
+      "clue_answer": {
+        "PHONE83": {
+          "row": 3,
+          "col": 4,
+          "dir": "across"
+        }
+      },
+      "clue_index": "1",
+      "unlock_code": "83"
+    },
+    "0": {
+      "clue_answer": {
+        "LIBRARY17": {
+          "row": 5,
+          "col": 1,
+          "dir": "across"
+        }
+      },
+      "clue_index": "0",
+      "unlock_code": "17"
+    },
+    "2": {
+      "clue_answer": {
+        "AIRPORT46": {
+          "row": 0,
+          "col": 4,
+          "dir": "down"
+        }
+      },
+      "clue_index": "2",
+      "unlock_code": "46"
+    },
+    "4": {
+      "clue_answer": {
+        "APPLE26": {
+          "row": 2,
+          "col": 1,
+          "dir": "down"
+        }
+      },
+      "clue_index": "4",
+      "unlock_code": "26"
+    }
+  },
+  "5": {
+    "grid_design": [
+      "##WINTER68#",
+      "#####H#####",
+      "#####E#####",
+      "##BANANA14#",
+      "#####T#####",
+      "##SHOES91##",
+      "52DOOR#####",
+      "#####3#####",
+      "#####5#####",
+      "###########",
+      "###########"
+    ],
+    "2": {
+      "clue_answer": {
+        "WINTER68": {
+          "row": 0,
+          "col": 2,
+          "dir": "across"
+        }
+      },
+      "clue_index": "2",
+      "unlock_code": "68"
+    },
+    "3": {
+      "clue_answer": {
+        "BANANA14": {
+          "row": 3,
+          "col": 2,
+          "dir": "across"
+        }
+      },
+      "clue_index": "3",
+      "unlock_code": "14"
+    },
+    "0": {
+      "clue_answer": {
+        "SHOES91": {
+          "row": 5,
+          "col": 2,
+          "dir": "across"
+        }
+      },
+      "clue_index": "0",
+      "unlock_code": "91"
+    },
+    "4": {
+      "clue_answer": {
+        "52DOOR": {
+          "row": 6,
+          "col": 0,
+          "dir": "across"
+        }
+      },
+      "clue_index": "4",
+      "unlock_code": "52"
+    },
+    "1": {
+      "clue_answer": {
+        "THEATER35": {
+          "row": 0,
+          "col": 5,
+          "dir": "down"
+        }
+      },
+      "clue_index": "1",
+      "unlock_code": "35"
+    }
+  },
+  "6": {
+    "grid_design": [
+      "############",
+      "############",
+      "#T##########",
+      "#E#####O####",
+      "#A##SOCCER18",
+      "#C###M#E####",
+      "#HOSPITAL74#",
+      "#E###L#N####",
+      "#R###K#3####",
+      "#8###6#3####",
+      "#7###0######",
+      "############"
+    ],
+    "1": {
+      "clue_answer": {
+        "SOCCER18": {
+          "row": 4,
+          "col": 4,
+          "dir": "across"
+        }
+      },
+      "clue_index": "1",
+      "unlock_code": "18"
+    },
+    "0": {
+      "clue_answer": {
+        "HOSPITAL74": {
+          "row": 6,
+          "col": 1,
+          "dir": "across"
+        }
+      },
+      "clue_index": "0",
+      "unlock_code": "74"
+    },
+    "4": {
+      "clue_answer": {
+        "TEACHER87": {
+          "row": 2,
+          "col": 1,
+          "dir": "down"
+        }
+      },
+      "clue_index": "4",
+      "unlock_code": "87"
+    },
+    "3": {
+      "clue_answer": {
+        "OCEAN33": {
+          "row": 3,
+          "col": 7,
+          "dir": "down"
+        }
+      },
+      "clue_index": "3",
+      "unlock_code": "33"
+    },
+    "2": {
+      "clue_answer": {
+        "MILK60": {
+          "row": 5,
+          "col": 5,
+          "dir": "down"
+        }
+      },
+      "clue_index": "2",
+      "unlock_code": "60"
+    }
+  },
+  "7": {
+    "grid_design": [
+      "############",
+      "########C###",
+      "########A###",
+      "########R###",
+      "CHURCH95R###",
+      "POOL41##O###",
+      "#RAINCOAT23#",
+      "#S######1###",
+      "#E######2###",
+      "#6##########",
+      "#9##########",
+      "############"
+    ],
+    "3": {
+      "clue_answer": {
+        "CHURCH95": {
+          "row": 4,
+          "col": 0,
+          "dir": "across"
+        }
+      },
+      "clue_index": "3",
+      "unlock_code": "95"
+    },
+    "2": {
+      "clue_answer": {
+        "POOL41": {
+          "row": 5,
+          "col": 0,
+          "dir": "across"
+        }
+      },
+      "clue_index": "2",
+      "unlock_code": "41"
+    },
+    "0": {
+      "clue_answer": {
+        "RAINCOAT23": {
+          "row": 6,
+          "col": 1,
+          "dir": "across"
+        }
+      },
+      "clue_index": "0",
+      "unlock_code": "23"
+    },
+    "4": {
+      "clue_answer": {
+        "CARROT12": {
+          "row": 1,
+          "col": 8,
+          "dir": "down"
+        }
+      },
+      "clue_index": "4",
+      "unlock_code": "12"
+    },
+    "1": {
+      "clue_answer": {
+        "HORSE69": {
+          "row": 4,
+          "col": 1,
+          "dir": "down"
+        }
+      },
+      "clue_index": "1",
+      "unlock_code": "69"
+    }
+  },
+  "8": {
+    "grid_design": [
+      "##############",
+      "##############",
+      "##############",
+      "##############",
+      "##############",
+      "##############",
+      "BASKETBALL61##",
+      "#####ZOO56####",
+      "#####MARKET27#",
+      "######T#######",
+      "######3#######",
+      "#CLOCK80######",
+      "##############",
+      "##############"
+    ],
+    "4": {
+      "clue_answer": {
+        "BASKETBALL61": {
+          "row": 6,
+          "col": 0,
+          "dir": "across"
+        }
+      },
+      "clue_index": "4",
+      "unlock_code": "61"
+    },
+    "0": {
+      "clue_answer": {
+        "ZOO56": {
+          "row": 7,
+          "col": 5,
+          "dir": "across"
+        }
+      },
+      "clue_index": "0",
+      "unlock_code": "56"
+    },
+    "3": {
+      "clue_answer": {
+        "MARKET27": {
+          "row": 8,
+          "col": 5,
+          "dir": "across"
+        }
+      },
+      "clue_index": "3",
+      "unlock_code": "27"
+    },
+    "2": {
+      "clue_answer": {
+        "CLOCK80": {
+          "row": 11,
+          "col": 1,
+          "dir": "across"
+        }
+      },
+      "clue_index": "2",
+      "unlock_code": "80"
+    },
+    "1": {
+      "clue_answer": {
+        "BOAT38": {
+          "row": 6,
+          "col": 6,
+          "dir": "down"
+        }
+      },
+      "clue_index": "1",
+      "unlock_code": "38"
+    }
+  },
+  "9": {
+    "grid_design": [
+      "#######B####",
+      "##AQUARIUM22",
+      "###E###C####",
+      "###L###Y####",
+      "###E###C####",
+      "###P###L####",
+      "###HOUSE49##",
+      "###A##T7####",
+      "###N##A5####",
+      "###T##R#####",
+      "###8##1#####",
+      "###8##6#####"
+    ],
+    "3": {
+      "clue_answer": {
+        "AQUARIUM22": {
+          "row": 1,
+          "col": 2,
+          "dir": "across"
+        }
+      },
+      "clue_index": "3",
+      "unlock_code": "22"
+    },
+    "1": {
+      "clue_answer": {
+        "HOUSE49": {
+          "row": 6,
+          "col": 3,
+          "dir": "across"
+        }
+      },
+      "clue_index": "1",
+      "unlock_code": "49"
+    },
+    "2": {
+      "clue_answer": {
+        "BICYCLE75": {
+          "row": 0,
+          "col": 7,
+          "dir": "down"
+        }
+      },
+      "clue_index": "2",
+      "unlock_code": "75"
+    },
+    "4": {
+      "clue_answer": {
+        "ELEPHANT88": {
+          "row": 2,
+          "col": 3,
+          "dir": "down"
+        }
+      },
+      "clue_index": "4",
+      "unlock_code": "88"
+    },
+    "0": {
+      "clue_answer": {
+        "STAR16": {
+          "row": 6,
+          "col": 6,
+          "dir": "down"
+        }
+      },
+      "clue_index": "0",
+      "unlock_code": "16"
+    }
+  }
+}

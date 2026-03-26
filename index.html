@@ -5,36 +5,49 @@
 <title>Easter Treasure Hunt Crossword</title>
 <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
 
 <h1>🐣 Easter Treasure Hunt Crossword</h1>
+
+<div class="section">
+  <h3>Select Grid</h3>
+  <select id="gridSelector" onchange="switchGrid(this.value)">
+    <option value="0">  Trail  IndianRun</option>
+    <option value="1">  Trail  RedTrabue</option>
+    <option value="2">  Trail  GlacierRidge</option>
+    <option value="3">  Trail  Kaltenbach</option>
+    <option value="4">  Trail  LlewellynFarms</option>
+    <option value="5">  Trail  HooverNature</option>
+    <option value="6">  Trail  CharMarRidge</option>
+    <option value="7">  Trail  SpringCreek</option>
+    <option value="8">  Trail  Highbanks</option>
+    <option value="9">  Trail  ShaleHollow</option>
+  </select>
+</div>
 
 <div id="grid" class="grid"></div>
 
 <div class="section">
 
-<h3>Enter number from game stall</h3>
+<h3 id="clue_unlock_header">Enter the clue unlock code</h3>
 
-<input id="numberInput" placeholder="Enter number">
+<input id="numberInput" placeholder="Enter unlock code">
 <button onclick="unlockClue()">Unlock Clue</button>
 
 </div>
 
-<div class="section">
-
-<h3 id="clueText"></h3>
-
-<input id="answerInput" placeholder="Enter answer">
-<button onclick="checkAnswer()">Submit</button>
-
+<div id="answerSection" class="section" style="display: none;">
+  <h3 id="clueText"></h3>
+  <input id="answerInput" placeholder="Enter answer">
+  <button onclick="checkAnswer()">Submit</button>
 </div>
 
 <p id="message"></p>
 
 <button onclick="resetGame()">Clear Progress</button>
 
-<script src="script.js"></script>
+<script src="grid-loader.js"></script>
+<script src="unlock-manager.js"></script>
 
 </body>
 </html>

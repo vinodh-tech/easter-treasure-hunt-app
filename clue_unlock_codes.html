@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clue Unlock Codes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            max-width: 600px;
+            margin: 50px auto;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            background: white;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: bold;
+            color: #555;
+        }
+        select {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        #result {
+            margin-top: 20px;
+            padding: 15px;
+            background-color: #f9f9f9;
+            border-left: 4px solid #007bff;
+            display: none;
+        }
+        #result.show {
+            display: block;
+        }
+        .error {
+            color: #d32f2f;
+        }
+        .success {
+            color: #388e3c;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 Easter Treasure Hunt - Clue Unlock Codes</h1>
+        
+        <div class="form-group">
+            <label for="trail">Select Trail:</label>
+            <select id="trail" required>
+                <option value="">-- Choose a trail --</option>
+                    <option value="1">  Trail  IndianRun</option>
+                    <option value="2">  Trail  RedTrabue</option>
+                    <option value="3">  Trail  GlacierRidge</option>
+                    <option value="4">  Trail  Kaltenbach</option>
+                    <option value="5">  Trail  LlewellynFarms</option>
+                    <option value="6">  Trail  HooverNature</option>
+                    <option value="7">  Trail  CharMarRidge</option>
+                    <option value="8">  Trail  SpringCreek</option>
+                    <option value="9">  Trail  Highbanks</option>
+                    <option value="0"> Trail  ShaleHollow</option>
+            </select>
+        </div>
+
+        <div class="form-group">
+            <label for="clueIndex">Select Clue Index:</label>
+            <select id="clueIndex" required>
+                <option value="">-- Choose a clue --</option>
+                <option value="2">Clue 2</option>
+                <option value="3">Clue 3</option>
+                <option value="4">Clue 4</option>
+            </select>
+        </div>
+
+        <button onclick="getUnlockCode()">Get Unlock Code</button>
+
+        <div id="result"></div>
+    </div>
+
+    <script>
+        // Load trails on page load
+        document.addEventListener('DOMContentLoaded', loadTrails);
+        
+        const API_URL = 'http://localhost:3000'
+
+        async function loadTrails() {
+            try {
+                const response = await fetch(`${API_URL}/api/trails`);
+                const trails = await response.json();
+                const trailSelect = document.getElementById('trail');
+                
+                trails.forEach(trail => {
+                    const option = document.createElement('option');
+                    option.value = trail.id;
+                    option.textContent = trail.name;
+                    trailSelect.appendChild(option);
+                });
+            } catch (error) {
+                console.error('Error loading trails:', error);
+            }
+        }
+
+        async function getUnlockCode() {
+            const trailId = document.getElementById('trail').value;
+            const clueIndex = document.getElementById('clueIndex').value;
+            const resultDiv = document.getElementById('result');
+
+            if (!trailId || !clueIndex) {
+                resultDiv.innerHTML = '<p class="error">Please select both trail and clue index.</p>';
+                resultDiv.classList.add('show');
+                return;
+            }
+
+            try {
+                const response = await fetch(`${API_URL}/api/unlock/${trailId}/${clueIndex}`);
+                if (!response.ok) {
+                    const errorData = await response.json().catch(() => ({}));
+                    throw new Error(errorData.error || 'Failed to fetch unlock code');
+                }
+                
+                const data = await response.json();
+                resultDiv.innerHTML = `<p class="success"><strong>Unlock Code:</strong> ${data.unlockCode}</p>`;
+                resultDiv.classList.add('show');
+            } catch (error) {
+                resultDiv.innerHTML = `<p class="error">Error: ${error.message}</p>`;
+                resultDiv.classList.add('show');
+            }
+        }
+    </script>
+</body>
+</html>

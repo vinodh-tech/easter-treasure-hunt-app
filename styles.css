@@ -15,15 +15,51 @@ text-shadow: 2px 2px 4px rgba(0,0,0,0.1);
 }
 
 .grid{
-display: grid;
-grid-template-columns: repeat(7, 50px);
+display: flex;
+flex-direction: column;
 gap: 4px;
 justify-content: center;
-margin: 30px auto;
+align-items: center;
+margin: 0px auto;
 box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 border-radius: 10px;
 padding: 20px;
 background: rgba(255,255,255,0.8);
+}
+
+.grid-row{
+display: flex;
+gap: 4px;
+}
+
+.grid-cell{
+width: 50px;
+height: 50px;
+border: 2px solid #4a6741;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 16px;
+font-weight: bold;
+background: white;
+transition: all 0.3s ease;
+box-sizing: border-box;
+}
+
+.grid-cell.letter{
+background: white;
+cursor: pointer;
+}
+
+.grid-cell.letter:hover{
+transform: scale(1.20);
+background: #f0f0f0;
+}
+
+.grid-cell.blocked{
+background: #4a6741;
+border: 2px solid #4a6741;
+box-sizing: border-box;
 }
 
 .cell{
@@ -33,7 +69,7 @@ border: 2px solid #4a6741;
 display: flex;
 align-items: center;
 justify-content: center;
-font-size: 22px;
+font-size: 16px;
 font-weight: bold;
 background: white;
 transition: all 0.3s ease;
@@ -45,7 +81,8 @@ transform: scale(1.20);
 
 .block{
 background: #4a6741;
-border: none;
+border: 2px solid #4a6741;
+box-sizing: border-box;
 }
 
 input{
@@ -55,6 +92,20 @@ margin-top: 10px;
 border: 2px solid #4a6741;
 border-radius: 5px;
 width: 200px;
+}
+
+select{
+padding: 10px;
+font-size: 16px;
+margin-top: 10px;
+border: 2px solid #4a6741;
+border-radius: 5px;
+background: white;
+cursor: pointer;
+}
+
+select:hover{
+background: #f9f9f9;
 }
 
 button{
@@ -88,7 +139,27 @@ margin-right: auto;
 margin-top: 15px;
 font-weight: bold;
 font-size: 18px;
+padding: 10px;
+border-radius: 5px;
+text-align: center;
+}
+
+.message.success {
+color: #388e3c;
+background-color: #e8f5e8;
+border: 1px solid #4caf50;
+}
+
+.message.error {
 color: #d32f2f;
+background-color: #ffebee;
+border: 1px solid #f44336;
+}
+
+.message.info {
+color: #1976d2;
+background-color: #e3f2fd;
+border: 1px solid #2196f3;
 }
 
 #clueText{
