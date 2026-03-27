@@ -92,9 +92,11 @@
             <label for="clueIndex">Select Clue Index:</label>
             <select id="clueIndex" required>
                 <option value="">-- Choose a clue --</option>
-                <option value="2">Clue 2</option>
-                <option value="3">Clue 3</option>
-                <option value="4">Clue 4</option>
+                <option value="0">Clue 1</option>
+                <option value="1">Clue 2</option>
+                <option value="2">Clue 3</option>
+                <option value="3">Clue 4</option>
+                <option value="4">Clue 5</option>
             </select>
         </div>
 
@@ -105,9 +107,26 @@
 
     <script>
         // Load trails on page load
-        document.addEventListener('DOMContentLoaded', loadTrails);
+        document.addEventListener('DOMContentLoaded', function() {
+            loadTrails();
+            addChangeListeners();
+        });
         
         const API_URL = 'http://localhost:3000'
+        
+        function addChangeListeners() {
+            const trailSelect = document.getElementById('trail');
+            const clueIndexSelect = document.getElementById('clueIndex');
+            const resultDiv = document.getElementById('result');
+            
+            trailSelect.addEventListener('change', function() {
+                resultDiv.classList.remove('show');
+            });
+            
+            clueIndexSelect.addEventListener('change', function() {
+                resultDiv.classList.remove('show');
+            });
+        }
 
         async function loadTrails() {
             try {
