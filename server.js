@@ -44,14 +44,14 @@ const unlock_clue_codes_with_questions = {
     , { "clueindex": 4, "clue": "Frozen dessert often eaten in summer", "unlock_code": 67, "clue_answer": "ICECREAM92", "row": 0, "col": 6, "dir": "down" } 
     , { "clueindex": 5, "clue": "A sport played with a bat and ball", "unlock_code": 89, "clue_answer": "BASEBALL55", "row": 2, "col": 2, "dir": "down" } 
   ],
-  4: [{ "clueindex": 1, "clue": "A place where books are borrowed", "unlock_code": 11, "clue_answer": "LIBRARY17",  "row": 5, "col": 2, "dir": "across" } 
+  4: [{ "clueindex": 1, "clue": "A place where books are borrowed", "unlock_code": 11, "clue_answer": "LIBRARY17",  "row": 5, "col": 1, "dir": "across" } 
     , { "clueindex": 2, "clue": "A device used to call or text people", "unlock_code": 23, "clue_answer": "PHONE83", "row": 3, "col": 4, "dir": "across" }
-    , { "clueindex": 3, "clue": "A place where airplanes take off and land", "unlock_code": 45, "clue_answer": "AIRPORT45", "row": 3, "col": 0, "dir": "across" }
+    , { "clueindex": 3, "clue": "A place where airplanes take off and land", "unlock_code": 45, "clue_answer": "AIRPORT46", "row": 0, "col": 4, "dir": "down" }
     , { "clueindex": 4, "clue": "A vehicle that runs on rails", "unlock_code": 67, "clue_answer": "TRAIN70", "row": 0, "col": 2, "dir": "across" }
-    , { "clueindex": 5, "clue": "A round fruit that keeps the doctor away", "unlock_code": 89, "clue_answer": "APPLE89", "row": 9, "col": 2, "dir":"across" }
+    , { "clueindex": 5, "clue": "A round fruit that keeps the doctor away", "unlock_code": 89, "clue_answer": "APPLE26", "row": 2, "col": 1, "dir":"down" }
   ],
-  5: [{ "clueindex": 1, "clue": "Something you wear on your feet", "unlock_code": 11, "clue_answer": "SHOES91", "row": 4, "col": 4, "dir": "across" } 
-    , { "clueindex": 2, "clue": "A building where movies are shown", "unlock_code": 23, "clue_answer": "THEATER23", "row": 1, "col": 2, "dir": "across" } 
+  5: [{ "clueindex": 1, "clue": "Something you wear on your feet", "unlock_code": 11, "clue_answer": "SHOES91", "row": 5, "col": 2, "dir": "across" } 
+    , { "clueindex": 2, "clue": "A building where movies are shown", "unlock_code": 23, "clue_answer": "THEATER35", "row": 0, "col": 5, "dir": "down" } 
     , { "clueindex": 3, "clue": "The cold season of the year", "unlock_code": 45, "clue_answer": "WINTER45", "row": 2, "col": 2, "dir": "across" } 
     , { "clueindex": 4, "clue": "A yellow fruit monkeys love", "unlock_code": 67, "clue_answer": "BANANA67", "row": 3, "col": 2, "dir": "across" } 
     , { "clueindex": 5, "clue": "Something you open to enter a room", "unlock_code": 89, "clue_answer": "DOOR89", "row": 4, "col": 2, "dir": "across" } 
@@ -68,11 +68,11 @@ const unlock_clue_codes_with_questions = {
     , { "clueindex": 4, "clue": "A building where people pray", "unlock_code": 67, "clue_answer": "CHURCH67", "row": 0, "col": 0, "dir": "across" } 
     , { "clueindex": 5, "clue": "A long yellow vegetable rabbits like", "unlock_code": 89, "clue_answer": "CARROT89", "row": 0, "col": 0, "dir": "across" } 
   ],
-  9: [{ "clueindex": 1, "clue": "Something that shines in the night sky", "unlock_code": 11, "clue_answer": "STAR11", "row": 0, "col": 0, "dir": "across" } 
-    , { "clueindex": 2, "clue": "A place where families live together", "unlock_code": 23, "clue_answer": "HOME23", "row": 0, "col": 0, "dir": "across" } 
-    , { "clueindex": 3, "clue": "A vehicle with two wheels you pedal", "unlock_code": 45, "clue_answer": "BICYCLE45", "row": 0, "col": 0, "dir": "across" } 
-    , { "clueindex": 4, "clue": "A place where you see many fish", "unlock_code": 67, "clue_answer": "AQUARIUM67", "row": 0, "col": 0, "dir": "across" } 
-    , { "clueindex": 5, "clue": "A large animal with a long trunk", "unlock_code": 89, "clue_answer": "ELEPHANT89", "row": 0, "col": 0, "dir": "across" } 
+  9: [{ "clueindex": 1, "clue": "Something that shines in the night sky", "unlock_code": 11, "clue_answer": "STAR11", "row": 6, "col":6, "dir": "down" } 
+    , { "clueindex": 2, "clue": "A place where families live together", "unlock_code": 23, "clue_answer": "house49", "row": 6, "col": 3, "dir": "across" } 
+    , { "clueindex": 3, "clue": "A vehicle with two wheels you pedal", "unlock_code": 45, "clue_answer": "BICYCLE45", "row": 0, "col": 7, "dir": "down" } 
+    , { "clueindex": 4, "clue": "A place where you see many fish", "unlock_code": 67, "clue_answer": "AQUARIUM67", "row": 1, "col": 2, "dir": "across" } 
+    , { "clueindex": 5, "clue": "A large animal with a long trunk", "unlock_code": 89, "clue_answer": "ELEPHANT89", "row": 2, "col": 3, "dir": "down" } 
   ]
 }
 

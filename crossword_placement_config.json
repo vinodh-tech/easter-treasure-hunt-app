@@ -411,11 +411,7 @@
     },
     "1": {
       "clue_answer": {
-        "THEATER35": {
-          "row": 0,
-          "col": 5,
-          "dir": "down"
-        }
+        "THEATER35": {"row": 0,"col": 5,"dir": "down"}
       },
       "clue_index": "1",
       "unlock_code": "35"
@@ -438,11 +434,7 @@
     ],
     "1": {
       "clue_answer": {
-        "SOCCER18": {
-          "row": 4,
-          "col": 4,
-          "dir": "across"
-        }
+        "SOCCER18": {"row": 4,"col": 4,"dir": "across"}
       },
       "clue_index": "1",
       "unlock_code": "18"
@@ -460,11 +452,7 @@
     },
     "4": {
       "clue_answer": {
-        "TEACHER87": {
-          "row": 2,
-          "col": 1,
-          "dir": "down"
-        }
+        "TEACHER87": {"row": 2,"col": 1,"dir": "down"}
       },
       "clue_index": "4",
       "unlock_code": "87"
