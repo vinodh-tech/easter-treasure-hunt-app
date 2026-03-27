@@ -27,7 +27,7 @@ const unlock_clue_codes_with_questions = {
 
   ],
   1: [{ "clueindex": 1, "clue": "The bright star at the center of our solar system", "unlock_code": 11, "clue_answer": "SUN32" , "row": 5, "col": 3, "dir": "across" } 
-    , { "clueindex": 2, "clue": "Frozen water that falls from the sky in winter", "unlock_code": 23, "clue_answer": "SNOW23", "row": 3, "col": 3, "dir": "down" }
+    , { "clueindex": 2, "clue": "Frozen water that falls from the sky in winter", "unlock_code": 23, "clue_answer": "51SNOW", "row": 3, "col": 3, "dir": "down" }
     , { "clueindex": 3, "clue": "A vehicle that flies in the sky with passengers", "unlock_code": 45, "clue_answer": "PLANE84", "row": 6, "col": 0, "dir": "across" }
     , { "clueindex": 4, "clue": "A place where students go to learn", "unlock_code": 67, "clue_answer": "SCHOOL19", "row": 7, "col": 0, "dir": "across" }
     , { "clueindex": 5, "clue": "A sweet baked dessert with candles on top", "unlock_code": 89, "clue_answer": "CAKE72", "row": 0,"col": 7, "dir":"down" }
