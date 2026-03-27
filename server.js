@@ -36,9 +36,9 @@ const unlock_clue_codes_with_questions = {
     , { "clueindex": 2, "clue": "A pet that says meow", "unlock_code": 23, "clue_answer": "CAT90", "row": 5, "col": 2, "dir": "down" }
     , { "clueindex": 3, "clue": "A tall animal with a very long neck", "unlock_code": 45, "clue_answer": "GIRAFFE11", "row": 4, "col": 2, "dir": "across" }
     , { "clueindex": 4, "clue": "A farm animal that gives us milk", "unlock_code": 67, "clue_answer": "COW43", "row": 5, "col": 2, "dir": "across" }
-    , { "clueindex": 5, "clue": "A small buzzing insect that makes honey", "unlock_code": 89, "clue_answer": "BEE77", "row": 1, "col": 8, "dir": "down" }
+    , { "clueindex": 5, "clue": "A small buzzing insect that makes honey", "unlock_code": 89, "clue_answer": "77BEE", "row": 1, "col": 8, "dir": "down" }
   ],
-  3: [{ "clueindex": 1, "clue": "The day after Saturday", "unlock_code": 11, "clue_answer":    "MONDAY11",  "row": 0, "col": 0, "dir": "across" } 
+  3: [{ "clueindex": 1, "clue": "The day after Saturday", "unlock_code": 11, "clue_answer":    "SUNDAY11",  "row": 6, "col": 2, "dir": "across" } 
     , { "clueindex": 2, "clue": "The color of grass", "unlock_code": 23, "clue_answer": "GREEN64", "row": 2, "col": 4, "dir": "down" } 
     , { "clueindex": 3, "clue": "Something you use to write on paper", "unlock_code": 45, "clue_answer": "PENCIL39", "row": 0, "col": 2, "dir": "across" } 
     , { "clueindex": 4, "clue": "Frozen dessert often eaten in summer", "unlock_code": 67, "clue_answer": "ICECREAM92", "row": 0, "col": 6, "dir": "down" } 
@@ -52,21 +52,28 @@ const unlock_clue_codes_with_questions = {
   ],
   5: [{ "clueindex": 1, "clue": "Something you wear on your feet", "unlock_code": 11, "clue_answer": "SHOES91", "row": 5, "col": 2, "dir": "across" } 
     , { "clueindex": 2, "clue": "A building where movies are shown", "unlock_code": 23, "clue_answer": "THEATER35", "row": 0, "col": 5, "dir": "down" } 
-    , { "clueindex": 3, "clue": "The cold season of the year", "unlock_code": 45, "clue_answer": "WINTER45", "row": 2, "col": 2, "dir": "across" } 
+    , { "clueindex": 3, "clue": "The cold season of the year", "unlock_code": 45, "clue_answer": "WINTER45", "row": 0, "col": 2, "dir": "across" } 
     , { "clueindex": 4, "clue": "A yellow fruit monkeys love", "unlock_code": 67, "clue_answer": "BANANA67", "row": 3, "col": 2, "dir": "across" } 
     , { "clueindex": 5, "clue": "Something you open to enter a room", "unlock_code": 89, "clue_answer": "DOOR89", "row": 4, "col": 2, "dir": "across" } 
 
-  ], 6: [{ "clueindex": 1, "clue": "A place where doctors treat sick people", "unlock_code": 11, "clue_answer": "HOSPITAL11", "row": 0, "col": 0, "dir": "across" } 
-    , { "clueindex": 2, "clue": "A game played with a black and white ball and goals", "unlock_code": 23, "clue_answer": "SOCCER23", "row": 0, "col": 0, "dir": "across" } 
-    , { "clueindex": 3, "clue": "Something you drink to stay healthy from cows", "unlock_code": 45, "clue_answer": "MILK45", "row": 0, "col": 0, "dir": "across" } 
-    , { "clueindex": 4, "clue": "A big body of water with waves", "unlock_code": 67, "clue_answer": "OCEAN67", "row": 0, "col": 0, "dir": "across" } 
-    , { "clueindex": 5, "clue": "A person who teaches students", "unlock_code": 89, "clue_answer": "TEACHER89", "row": 0, "col": 0, "dir": "across" } 
+  ], 6: [{ "clueindex": 1, "clue": "A place where doctors treat sick people", "unlock_code": 11, "clue_answer": "HOSPITAL11", "row": 6, "col": 1, "dir": "across" } 
+    , { "clueindex": 2, "clue": "A game played with a black and white ball and goals", "unlock_code": 23, "clue_answer": "SOCCER23", "row": 4, "col": 4, "dir": "across" } 
+    , { "clueindex": 3, "clue": "Something you drink to stay healthy from cows", "unlock_code": 45, "clue_answer": "MILK45", "row": 5, "col": 5, "dir": "down" } 
+    , { "clueindex": 4, "clue": "A big body of water with waves", "unlock_code": 67, "clue_answer": "OCEAN67", "row": 3, "col": 7, "dir": "down" } 
+    , { "clueindex": 5, "clue": "A person who teaches students", "unlock_code": 89, "clue_answer": "TEACHER89", "row": 2, "col": 1, "dir": "down" } 
   ],
-  7: [{ "clueindex": 1, "clue": "Something you wear when it rains", "unlock_code": 11, "clue_answer": "RAINCOAT11", "row": 0, "col": 0, "dir": "across" } 
-    , { "clueindex": 2, "clue": "A fast animal that runs and neighs", "unlock_code": 23, "clue_answer": "HORSE23", "row": 0, "col": 0, "dir": "across" } 
-    , { "clueindex": 3, "clue": "A place where you swim and relax", "unlock_code": 45, "clue_answer": "BEACH45", "row": 0, "col": 0, "dir": "across" } 
-    , { "clueindex": 4, "clue": "A building where people pray", "unlock_code": 67, "clue_answer": "CHURCH67", "row": 0, "col": 0, "dir": "across" } 
-    , { "clueindex": 5, "clue": "A long yellow vegetable rabbits like", "unlock_code": 89, "clue_answer": "CARROT89", "row": 0, "col": 0, "dir": "across" } 
+  7: [{ "clueindex": 1, "clue": "Something you wear when it rains", "unlock_code": 11, "clue_answer": "RAINCOAT11", "row": 6, "col": 1, "dir": "across" } 
+    , { "clueindex": 2, "clue": "A fast animal that runs and neighs", "unlock_code": 23, "clue_answer": "HORSE", "row": 4, "col": 1, "dir": "down" } 
+    , { "clueindex": 3, "clue": "A place where you swim and relax", "unlock_code": 45, "clue_answer": "POOL45", "row": 5, "col": 0, "dir": "across" } 
+    , { "clueindex": 4, "clue": "A building where people pray", "unlock_code": 67, "clue_answer": "CHURCH67", "row": 4, "col": 0, "dir": "across" } 
+    , { "clueindex": 5, "clue": "A long yellow vegetable rabbits like", "unlock_code": 89, "clue_answer": "CARROT89", "row": 1, "col": 8, "dir": "down" } 
+  ],
+  8:[
+      { "clueindex": 1, "clue": "A place where many animals live for visitors to see", "unlock_code": 11, "clue_answer": "ZOO56", "row": 7, "col": 5, "dir": "across" }
+    , { "clueindex": 2, "clue": "A vehicle that travels on water", "unlock_code": 23, "clue_answer": "BOAT38", "row": 6, "col": 6, "dir": "down" }
+    , { "clueindex": 3, "clue": "Something that tells the time", "unlock_code": 45, "clue_answer": "CLOCK80", "row": 11, "col": 1, "dir": "across" }
+    , { "clueindex": 4, "clue": "A place where you buy groceries", "unlock_code": 67, "clue_answer": "MARKET27", "row": 8, "col": 5, "dir": "across" }
+    , { "clueindex": 5, "clue": "A sport played with hoop and orange ball", "unlock_code": 89, "clue_answer": "BASKETBALL61", "row": 0, "col": 7, "dir": "across" }
   ],
   9: [{ "clueindex": 1, "clue": "Something that shines in the night sky", "unlock_code": 11, "clue_answer": "STAR11", "row": 6, "col":6, "dir": "down" } 
     , { "clueindex": 2, "clue": "A place where families live together", "unlock_code": 23, "clue_answer": "house49", "row": 6, "col": 3, "dir": "across" } 
